@@ -50,3 +50,21 @@ float: left;
    background:yellow;
    color: black;
  }
+ #passarinho {
+   width: 20%;
+
+ }
+ .caixaImagem{
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 90%;
+   height: 130px;
+   background: rgb(139, 74, 139);
+   margin: 20px;
+   border-color: red;
+   border-width: 20px;
+   border-style: double;
+   padding: 20px;
+
+ }
