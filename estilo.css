@@ -52,7 +52,10 @@ float: left;
  }
  #passarinho {
    width: 20%;
-
+ 
+ }
+ #passarinho:hover{
+   width: 22%;
  }
  .caixaImagem{
    position: absolute;
@@ -66,5 +69,6 @@ float: left;
    border-width: 20px;
    border-style: double;
    padding: 20px;
-
+  display: flex;
+  justify-content: end;
  }
