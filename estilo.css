@@ -3,6 +3,7 @@ body {
 }
 h1 {
   text-align: center;
+  
 }
 .menuPrincipal{
   position: absolute;
@@ -32,44 +33,50 @@ float: left;
    background:yellow;
    color: black;
  }
- #Aérea {
-   width: 20%;
- }
- #Aérea:hover{
-   width: 22%;
- }
- .caixaAérea{
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 90%;
-   height: 130px;
-   background: rgb(139, 74, 139);
-   margin: 20px;
-   border-color: red;
-   border-width: 20px;
-   border-style: double;
-   padding: 20px;
-  display: flex;
-  justify-content: end;
- }
- 
- .caixarodape{
+ .rodape{
    width: 100%;
-   height: 45px;
-   bottom: 0;
+   height: 50px; 
+   background: gray;
+   position: absolute;
+   bottom: 0px;
    left: 0;
-   background-color: gray;
-   color: black;
-   position: relative;
+   font-size: large;
    display: flex;
    justify-content: center;
-   flex-wrap: wrap;
-   align-content: center;
-   font-size:30px ;
+   color: #FFFFFF;
+ }
+ .título{
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  font-size: x-large;
+  background-color: blue;
+  color: #FFFFFF;
 
  }
- p{
-   
+
+ .conteúdo{
+ position: absolute;
+ top: 5%;
+ 
  }
+.Aviaçãocomercial {
+ position: absolute;
+ top: 0px;
+ left: 39%;
+ width: 60%;
+ height: 200px;
+ background: 0;
+ margin: 10px;
+ border-color: 0;
+ border-width: 15px;
+ border-style: 0;
+ padding: 20px;
+ display: flex;
+ justify-content: end;
+ font-size: small;
+
+}
+ 
+
  
